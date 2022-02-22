@@ -1,0 +1,7 @@
+module React {
+  umbrella header "React-Core-tvOS-umbrella.h"
+  exclude header "React-Core-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
